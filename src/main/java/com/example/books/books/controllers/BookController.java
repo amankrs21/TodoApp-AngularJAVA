@@ -44,4 +44,9 @@ public class BookController {
     public boolean deleteBook(@PathVariable int bookId) {
         return bookService.deleteBook(bookId);
     }
+
+    // Return all books with 200 status code
+    // GET /books
+
+    // Return a book with 200 status code
 }
