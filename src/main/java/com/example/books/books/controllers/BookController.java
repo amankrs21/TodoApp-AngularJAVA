@@ -45,8 +45,4 @@ public class BookController {
         return bookService.deleteBook(bookId);
     }
 
-    // Return all books with 200 status code
-    // GET /books
-
-    // Return a book with 200 status code
 }
